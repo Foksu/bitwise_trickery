@@ -1,3 +1,6 @@
+//This changes all letters to lowercase and last letters of word to upper case.
+//Run this like ./a.out "This is a test" --> thiS iS A tesT
+
 #include <unistd.h>
 
 #define TOLOWER(c) (c | ' ')
