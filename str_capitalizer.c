@@ -1,3 +1,6 @@
+//This changes all letters to lowercase and first letters of words to upper case.
+//Run this like ./a.out "This is a test" --> This Is A Test
+
 #include <unistd.h>
 
 #define TOLOWER(c) (c | ' ')
